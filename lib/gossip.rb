@@ -3,7 +3,7 @@ $:.unshift File.expand_path("./../lib", __FILE__)
 require 'csv'
 
 class Gossip 
-  attr_accessor :gossip_author, :gossip_content
+  attr_accessor :author, :content
 
   def initialize(gossip_author, gossip_content)
     @author = gossip_author

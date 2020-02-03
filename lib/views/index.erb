@@ -2,10 +2,20 @@
 <head>
   <title>The Gossip Project</title>
 </head>
+
 <body>
-  <h1> Mon super site de gossip, depuis le dossier views</h1>
-    <p>la liste des potins arrive bientôt, en attendant tu peux aller 
+  <h1> Mon super site de gossip, voici la liste des potins</h1>
+
+  <% gossips.each do |gossip| %>
+  <p>
+    <%= gossip.author %><br/>
+    <%= gossip.content %>
+  </p>
+<% end %>
+
+    <p>Si tu n'as pas eu ta dose de potins tu peux aller  
       <a href="/gossips/new/">ici</a> 
-    pour créer un nouveau potin!</p> 
+    pour en créer un nouveau !</p> 
 </body>
+
 </html>
