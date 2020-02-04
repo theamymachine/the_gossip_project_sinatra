@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 $:.unshift File.expand_path("./../lib", __FILE__)
-require '../lib/gossip.rb'
+require 'gossip'
 
 
 class ApplicationController < Sinatra::Base
