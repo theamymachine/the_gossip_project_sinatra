@@ -61,7 +61,7 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     naught (1.1.0)
-    nokogiri (1.10.7)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     os (1.0.1)
     parallel (1.19.1)
